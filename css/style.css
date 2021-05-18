@@ -1,0 +1,350 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+nav{
+	background:#ffff88;
+  box-shadow: 5px 10px #ff4400;
+}
+.navbar-brand img{
+	width: 80px;
+	border-radius: 50%;
+	margin-left: 7rem;
+	margin-top:20px;
+}
+.nav-link{
+	margin-left: 6rem;
+	margin-top: 20px;
+	font-family: Josefin Sans;
+	opacity: 3;
+
+}
+#section-one{
+	background: url(../img/manage-subscriber-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#section-two{
+	background: url(../img/bg-hl-02.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+
+}
+
+#link-two{
+	color: #ff4400;
+	font-family: lora;
+	font-size: 13px;
+	width: 150px;
+	text-align: center;
+	background:#44ff88;
+	transform: skew(-20deg);
+	  box-shadow: 0 9px #999;
+
+}
+#link-two:hover{
+	background:#aa2222;
+	color: #fff;
+}
+#link-three:hover{
+	background:#aa2222;
+	color: #fff;
+}
+#link-three{
+	color: #ff4400;
+	font-family: lora;
+	font-size: 13px;
+	width: 150px;
+	text-align: center;
+	background:#44ff88;
+	transform: skew(20deg);
+	  box-shadow: 0 9px #999;
+}
+
+#link-one{
+	background:#aa2222;
+	color: #fff;
+	border-radius: 20px;
+	text-align: center;
+	  padding: 15px 25px;
+	  color: #fff;
+	  border: none;
+	  border-radius: 15px;
+	  box-shadow: 0 9px #999;
+}
+#link-one:hover {background-color: #3e8e41}
+
+#link-one:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#link-two:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#link-three:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#link-five{
+	background:#aa2222;
+	color: #fff;
+	border-radius: 20px;
+	text-align: center;
+	  padding: 15px 25px;
+	  color: #fff;
+	  border: none;
+	  border-radius: 15px;
+	  box-shadow: 0 9px #999;
+}
+#link-five:hover {background-color: #3e8e41}
+
+#link-five:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+section{
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+header{
+	width: 100%;
+	height: 100vh;
+}
+#modal-btn{
+	position: fixed;
+	color: #fff;
+	margin-top: 40%;
+	margin-left:93%;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+#sticky-footer{
+	background:url(../img/red-bg.jpg);
+}
+
+ html, body, header{
+                height: 100%;
+                width: 100%;
+            }
+            header{
+                position: relative;
+                background: url(https://dl.dropboxusercontent.com/u/147644213/Image/bg.jpg) no-repeat;
+                background-size: cover;
+            }
+            header:before{
+                position: absolute;
+                content: '';
+                height: 100%;
+                width: 100%;
+                background: url(../img/screen-1.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: block;
+                z-index: ;
+            }
+
+            .contact-form-page{
+                height: 50px;
+                width: 50px;
+                display: block;
+                border-radius: 50%;
+                position: absolute;
+                bottom: 42px;
+                right: 42px;
+                overflow: hidden;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+                background: #7EC6E7;
+
+            }
+
+            .show-profile{
+                background: #3aa8db;
+                height: 100%;
+                display: block;
+                width: 336px;
+                bottom: 0;
+                right: 0;
+                position: absolute;
+                overflow-y: scroll;
+                border-radius: 0;
+                padding-bottom: 30px;
+			
+
+            }
+
+            .form-profile-img{
+                float: left;
+            }
+            .form-profile-img img{
+                border-radius: 50%;
+                margin: 20px 0 0 14px;
+            }
+            .contact-form-page h1{
+                font-size: 18px;
+                color: #fff;
+                margin: 20px 26px;
+                padding: 0px;
+                line-height: 29px;
+                padding-right: 30px;
+            }
+            .top-btn{
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                background: #98D1EC;
+                color: #fff;
+                padding: 15px 0;
+                text-align: center;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -webkit-transition: all 1s;
+                -moz-transition: all 1s;
+                -o-transition: all 1s;
+                transition: all 1s;
+                opacity: 0;
+            }
+            .top-btn:hover{
+                 -webkit-transform: rotate(360deg);
+                 -moz-transform: rotate(360deg);
+                 -o-transform: rotate(360deg);
+                 transform: rotate(360deg);
+                 background: #7EC6E7;
+                 color: #fff
+            }
+
+            .header-btn, .footer-btn a{
+                font-size: 20px;
+                color: #fff;
+                background: #3aa8db;
+                float: right;
+            }
+            .form-head{
+                display: block;
+            }
+            .cancel-btn-img{
+                position: relative;
+            }
+            .footer-btn{
+                position: relative;
+            }
+
+            .buttom-btn{
+                position: absolute;
+                bottom: 30px;
+                right: 30px;
+                background: #3aa8db;
+                color: #fff;
+                padding: 21px;
+                text-align: center;
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+                opacity: 1;
+            }
+            .buttom-btn i{
+                font-size: 30px;
+            }
+
+            .buttom-btn:hover{
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+                background:#71C0E5;
+                color: #fff
+            }
+            input.form-control {
+                height: 40px;
+                border-radius: 0;
+                outline: none;
+            }
+            textarea.form-control {
+                height: 150px;
+                border-radius: 0;
+            }
+            .contact-form-page form{
+                padding: 0 26px;
+            }
+
+            .contact-form-page .submit-buttom{
+                padding: 10px 40px;
+                text-align: center;
+                display: block;
+                border-radius: 0;
+                background: #007BB5;
+                border: none;
+                border-bottom: 5px solid #005B85;
+                text-shadow: none;
+                box-shadow: none;
+                font-size: 16px;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+            .form-group label{
+                font-size: 14px;
+                color: #fff;
+            }
+
+            /*
+                BUTTON OPACITY STYLE
+            */
+            .top-btn-show{
+                opacity: 1 !important;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+            .buttom-btn-hide{
+                opacity: 0 !important;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+            }
